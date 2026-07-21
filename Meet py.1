@@ -1,1 +1,20 @@
+# Class Definition
+class Student:
+    # Constructor
+    def __init__(self, name, age):
+        self.name = name      # Attribute
+        self.age = age        # Attribute
 
+    # Method
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+# Creating Objects
+student1 = Student("Meet", 20)
+student2 = Student("Rahul", 21)
+
+# Calling Methods
+student1.display()
+print()
+student2.display()
